@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Total de Compra</title>
+    <link rel="stylesheet" href="Taco.css">
+</head>
+<body>
+    <h1>Total de Compra en Supermercado</h1>
+
+    <div>
+        <label for="cantidadProductos">¿Cuántos productos diferentes va a pagar?</label>
+        <input type="number" id="cantidadProductos" min="1">
+        <button type="button" onclick="generarCamposDePrecio()">Aceptar</button>
+    </div>
+
+    <div id="camposPrecios" style="margin-top: 20px;">
+    </div>
+
+    <div id="resultadoTotal" style="margin-top: 20px; font-weight: bold;">
+    </div>
+
+    <button class="back-button" onclick="window.location.href='index.html'">
+            <span class="button-content">Regresar al Inicio</span>
+     </button>
+
+    <script src="JSP.js"></script>
+</body>
+</html>

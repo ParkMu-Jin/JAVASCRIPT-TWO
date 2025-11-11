@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PITAYA 2</title>
+    <link rel="stylesheet" href="Taco.css">
+</head>
+<body>
+    <div class="BLOCKTWO">
+        <h1>Identificación del Día de la Semana</h1>
+        <label for="numeroDia">Ingrese un número del 1 al 7:</label>
+        <input type="number" id="numeroDia" min="1" max="7">
+        <div class="instruction">Solo se permiten números enteros del 1 al 7</div>
+        <button id="btnCalcular">Identificar Día</button>
+        <div id="resultado" class="result"></div>
+
+        <button class="back-button" onclick="window.location.href='index.html'">
+            <span class="button-content">Regresar al Inicio</span>
+        </button>
+    </div>
+
+    <script src="JSP.js"></script>
+</body>
+</html>
